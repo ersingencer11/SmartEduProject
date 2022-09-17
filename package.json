@@ -4,13 +4,21 @@
   "description": "Education",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Ersin Gençer",
   "license": "ISC",
   "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.5.2",
+    "nodemailer": "^6.7.8",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
